@@ -1,5 +1,7 @@
 use AdventureWorks2012;
 
+/*MATTHEW SMITH HW#6*/
+
 /*Activity 1. Using the HumanResources.Employee table, provide a count of the number of employees by job title.  The query should consider only current employees (the CurrentFlag must equal 1).  */
 
 SELECT JobTitle, Count(BusinessEntityID) as Number 
